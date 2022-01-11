@@ -1,0 +1,33 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    color: $darkGray;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none
+}
+
+#global {
+    padding: 0 1em;
+}
+
+#main {
+    p {
+        font-family: 'Outfit'
+    }
+}
+
+@media (max-width: 39.9375rem) { 
+    .img_desktop, .img_tablet {
+        display: none;
+    }
+}

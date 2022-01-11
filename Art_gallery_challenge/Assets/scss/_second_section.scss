@@ -1,0 +1,19 @@
+@media (max-width: 39.9375rem) { 
+    #second_section {
+        .img_mobile {
+            margin-top: 7.4375rem;
+        }
+        h1 {
+            font-family: 'Big Shoulders Display', cursive; 
+            font-size: 50px;
+            color: $almostBlack;
+            margin-top: 1.6875rem;
+            margin-bottom: 1.875rem;
+        }
+        p {
+            font-family: 'Outfit', sans-serif;
+            font-size: $font-med;
+            line-height: 1.5;
+        }
+    }
+}

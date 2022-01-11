@@ -1,0 +1,149 @@
+@media (max-width: 39.9375rem) {
+  #second_section .img_mobile {
+    margin-top: 7.4375rem;
+  }
+  #second_section h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    color: #151515;
+    margin-top: 1.6875rem;
+    margin-bottom: 1.875rem;
+  }
+  #second_section p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+}
+
+#third_section .img_mobile {
+  margin-bottom: 0.60rem;
+}
+
+#fourth_section {
+  background: #151515;
+  padding: 1.25rem 1rem;
+  margin-bottom: 6rem;
+}
+
+#fourth_section h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 50px;
+  color: #151515;
+  margin-top: 1.6875rem;
+  margin-bottom: 1.875rem;
+  color: white;
+}
+
+#fourth_section p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: white;
+}
+
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  color: #444444;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+#global {
+  padding: 0 1em;
+}
+
+#main p {
+  font-family: 'Outfit';
+}
+
+@media (max-width: 39.9375rem) {
+  .img_desktop, .img_tablet {
+    display: none;
+  }
+}
+
+@media (max-width: 39.9375rem) {
+  .img_mobile {
+    width: 100%;
+  }
+  #main h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 60px;
+    margin: 30px 0 40px 0;
+    line-height: 1.2;
+    color: #151515;
+  }
+  #main p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+  #main .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  #main .flex-ai-c {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #main .location_link {
+    color: white;
+    background: #151515;
+    padding: 1.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.25rem;
+    letter-spacing: 3.64px;
+  }
+  #main #arrowBlock {
+    right: 0;
+    top: 0;
+    background: #D5966C;
+    width: 3.5rem;
+    height: 4.5rem;
+    padding: 1.25rem;
+  }
+  #main .right_arrow {
+    margin-left: -2rem;
+  }
+}
+
+footer {
+  background-color: #151515;
+  padding: 2.5rem 1.8rem;
+  color: white;
+}
+
+footer h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+footer p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+footer .social_network img:not(:last-child) {
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
